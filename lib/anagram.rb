@@ -10,6 +10,9 @@ class Anagram
     final = []
     
     list.each do |x|
-      
+      will = x.split("")
+      will.sort!
+      if 
+    end
   end
 end
