@@ -14,6 +14,7 @@ class Anagram
       will.sort!
       if will == word_arr
         final << x
+      end
     end
     return final
   end
