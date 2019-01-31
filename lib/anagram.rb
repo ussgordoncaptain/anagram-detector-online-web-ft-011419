@@ -12,7 +12,8 @@ class Anagram
     list.each do |x|
       will = x.split("")
       will.sort!
-      if 
+      if will == word_arr
+        final << x
     end
   end
 end
