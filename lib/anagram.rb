@@ -15,5 +15,6 @@ class Anagram
       if will == word_arr
         final << x
     end
+    return final
   end
 end
