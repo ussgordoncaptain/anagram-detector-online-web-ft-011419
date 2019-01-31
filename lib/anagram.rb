@@ -10,5 +10,6 @@ class Anagram
     final = []
     
     list.each do |x|
+      
   end
 end
